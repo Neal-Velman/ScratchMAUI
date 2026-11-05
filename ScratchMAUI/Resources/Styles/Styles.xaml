@@ -410,4 +410,21 @@
         <Setter Property="SelectedTabColor" Value="{AppThemeBinding Light={StaticResource Gray950}, Dark={StaticResource Gray200}}" />
     </Style>
 
+    <!-- Krebs Custom Styles -->
+    <Style TargetType="Label" x:Key="LayoutLabel">
+        <Setter Property="HorizontalTextAlignment" Value="Center" />
+        <Setter Property="VerticalTextAlignment" Value="Center" />
+        <Setter Property="FontSize" Value="60"/>
+        <Setter Property="TextColor" Value="Grey" />
+    </Style>
+    <Style TargetType="Label" x:Key="ContentLabel">
+        <Setter Property="HeightRequest" Value="120" />
+        <Setter Property="WidthRequest" Value="120" />
+        <Setter Property="FontSize" Value="30" />
+        <Setter Property="HorizontalTextAlignment" Value="Center" />
+        <Setter Property="VerticalTextAlignment" Value="Center" />
+        <Setter Property="Margin" Value="5"/>
+        <Setter Property="Opacity" Value="0.8" />
+    </Style>
+
 </ResourceDictionary>
